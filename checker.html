@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Checker - ToolVault</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="index.html" style="text-decoration:none"><h1>🔐 ToolVault</h1></a></div>
+            <div class="nav-right">
+                <a href="index.html" class="nav-link">Back to Tools</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="padding: 100px 0; min-height: 80vh;">
+        <div class="checker-card" style="background:var(--card-bg); border:2px solid var(--border-color); padding:3rem; border-radius:10px; text-align:center;">
+            <h2 style="color:var(--primary-color); margin-bottom:1rem;">🛡️ Security Headers Checker</h2>
+            <p style="margin-bottom: 2rem; opacity: 0.8;">Analyze HTTP security headers of any website</p>
+            <div style="display:flex; gap:0.5rem; justify-content:center;">
+                <input type="url" id="urlInput" placeholder="https://example.com" style="flex:1; max-width:500px; padding:1rem; border-radius:8px; background:var(--bg-darker); border:2px solid var(--border-color); color:#fff;">
+                <button id="checkBtn" style="padding:1rem 2rem; background:var(--primary-color); border:none; border-radius:8px; color:#fff; cursor:pointer;">Check Headers</button>
+            </div>
+            <div id="headerResults" style="margin-top:2rem; display:none;"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="footer-tagline">Hack. Share. Repeat.</p>
+        </div>
+    </footer>
+
+    <script src="js/security-checker.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolVault - Your Arsenal, Organized.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🔐 ToolVault</h1>
+            </div>
+            <div class="nav-right">
+                <a href="checker.html" class="nav-link">Security Checker</a>
+                <a href="#" class="btn-submit">Submit Resource</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">🔐 ToolVault</h1>
+            <p class="hero-subtitle">The collective arsenal for modern security.</p>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search... (e.g., nmap, sql injection, metasploit)" autocomplete="off">
+                <button id="searchBtn">🔍 Search</button>
+            </div>
+
+            <div class="filter-tags">
+                <button class="tag active" data-filter="all">All</button>
+                <button class="tag" data-filter="tool">Tools</button>
+                <button class="tag" data-filter="repo">Repos</button>
+                <button class="tag" data-filter="cheatsheet">Cheat Sheets</button>
+                <button class="tag" data-filter="cve">CVEs</button>
+                <button class="tag" data-filter="guide">Guides</button>
+                <button class="tag" data-filter="wordlist">Wordlists</button>
+                <button class="tag" data-filter="platform">Platforms</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <p class="results-count">Showing <span id="resultCount">0</span> resources</p>
+    </div>
+
+    <section class="resources">
+        <div class="container">
+            <div class="resources-grid" id="resourcesGrid">
+                </div>
+        </div>
+    </section>
+
+    <div id="noResults" class="container" style="display: none; text-align: center; padding: 2rem;">
+        <h3>No resources found</h3>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="footer-tagline">HACK. SHARE. REPEAT.</p>
+            <p>&copy; 2026 ToolVault - Community-curated security tools & resources</p>
+        </div>
+    </footer>
+
+    <script src="js/resources.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
