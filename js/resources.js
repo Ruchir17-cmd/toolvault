@@ -17,12 +17,12 @@ const resources = [
     },
     {
         id: 2,
-        title: "theHarvester",
+        title: "Wifi Vision",
         type: "tool",
-        description: "OSINT tool for gathering emails, subdomains, hosts, employee names, open ports and banners.",
-        url: "https://github.com/laramies/theHarvester",
-        tags: ["osint", "reconnaissance", "email", "subdomain"],
-        keywords: "theharvester osint email gathering subdomain enumeration",
+        description: "Confiuration Library for seeing through walls using WiFi.",
+        url: "https://github.com/AideTechBot/WiFi-Vision",
+        tags: ["osint", "reconnaissance", "Wifi", "See through walls", "spyware"],
+        keywords: "Wifi vision to se thorugh walls",
         contributorName: "@Community",
         contributorLink: "#"
     },
