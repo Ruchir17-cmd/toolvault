@@ -6,14 +6,14 @@ const resources = [
     // RECONNAISSANCE TOOLS
     {
         id: 1,
-        title: "Nmap",
+        title: "Universal JSON agent MCP",
         type: "tool",
-        description: "Network exploration tool and security scanner. The industry standard for port scanning and network discovery.",
-        url: "https://nmap.org",
-        tags: ["reconnaissance", "scanning", "network", "enumeration"],
-        keywords: "nmap port scanner network reconnaissance enumeration discovery",
-        contributorName: "@RuchirAgarwal",
-        contributorLink: "https://ruchir17-cmd.github.io/portfolio/"
+        description: "MCP Agent that allows small LLMs to understand JSON data and solves the context window problem.",
+        url: "https://pypi.org/project/universal-json-agent-mcp/",
+        tags: ["python", "mcp", "AI", "context"],
+        keywords: "AI MCP json context window problem",
+        contributorName: "@GautamVhalve",
+        contributorLink: "https://gautamvhavle.xyz/"
     },
     {
         id: 2,
